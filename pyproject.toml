@@ -1,0 +1,19 @@
+[project]
+name = "routerflow"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "hasnainbusiness204@gmail.com", email = "163559600+Hasnain-Software-Developer@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+routerflow = "routerflow:main"
+has = "routerflow.main:kickoff"
+has_plot = "routerflow.main:plot"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
